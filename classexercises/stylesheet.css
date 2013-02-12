@@ -1,0 +1,33 @@
+<style>
+	/*
+
+	selector {
+		property: value;
+		property: value;
+	}
+
+	*/
+	html { 
+		background-color: #ddd;
+		background-image: url(curiositytestdrive.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+		width: 80%; 
+		margin: 40px auto; 
+		background-color: rgba(255, 255, 255, 0.5);
+		padding: 40px;
+	}
+
+	h1 {
+		color: rgba(255,100, 10, 0.5);
+	}
+
+	h2 {
+		color:purple;
+	}
+
+	</style>
