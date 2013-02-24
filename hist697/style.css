@@ -1,4 +1,3 @@
-
 body {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -74,7 +73,7 @@ h3 {
 	margin: 20px 20px 0px 20px;
 	padding: 10px;
 	border: 5px solid #ccc;
-	background-image: url(lr1958.jpg);
+	background-image: url(lr1958.JPG);
 	background-size: cover;
 	height: 175px; /* ie5win fudge begins */
 	voice-family: "\"}\"";
