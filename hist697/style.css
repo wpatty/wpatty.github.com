@@ -1,0 +1,132 @@
+
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #ccc;
+	background-color: #333;
+	}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:  #ccc;
+	outline: none;
+	}
+a:visited {
+	color:  #ccc;
+	}
+a:active {
+	color:  #ccc;
+	}
+a:hover {
+	color: #ccc;
+	text-decoration: underline;
+	}
+
+strong, b {
+	font-weight: bold;
+	}
+
+p {
+	
+	font-family: 'Telex', sans-serif;
+		line-height: 2em;
+		font-size: 1em;
+		font-weight: normal;
+		font-style: italic;
+		font-variant: small-caps;
+	}
+
+
+h1 {
+	font-size: 45px;
+	line-height: 44px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Cousine', Helvitica, Arial, sans-serif;
+	color: #660033;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 330px
+	
+	}
+h2 {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #E9967A;
+	font-family: 'Cousine', Helvitica, Arial, sans-serif;	
+	background-color: rgba(255, 255, 255, 0.8);			
+	width: 330px
+	}
+h3 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+#top {
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background-image: url(lr1958.jpg);
+	background-size: cover;
+	height: 175px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height: 175px;
+	
+	
+	
+	}
+
+#left {
+	position: absolute;
+	top: 225px;
+	left: 0px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; 
+	margin: 20px
+	}
+
+
+#middle {
+	margin: 20px 190px 20px 190px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	
+	}
+
+#right {
+	position: absolute;
+	top: 225px;
+	right: 0px; 
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; 
+	}
+
+ul.std {
+     list-style: none;
+		font-family: 'Telex', sans-serif;
+	}
+
+	ul.std li {
+     		background: url(document.png) no-repeat 0
+		.2em;
+     		margin: -19px;
+     		padding: 1px 10px 38px 20px;
+	}
+
+
+
