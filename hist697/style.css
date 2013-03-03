@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 body {
+=======
+/*
+ * Default styles; none, normal, 0 to turn off default css styles 
+ */
+@media screen {
+	body {
+>>>>>>> responsive design updates
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	font-family: verdana, arial, helvetica, sans-serif;
@@ -69,7 +77,7 @@ h3 {
 	margin-bottom: 0;
 	}
 
-#top {
+header {
 	margin: 20px 20px 0px 20px;
 	padding: 10px;
 	border: 5px solid #ccc;
@@ -79,43 +87,97 @@ h3 {
 	voice-family: "\"}\"";
 	voice-family:inherit;
 	height: 175px;
-	
-	
-	
 	}
 
-#left {
-	position: absolute;
-	top: 225px;
-	left: 0px;
+nav {
+	
 	padding: 10px;
 	border: 5px solid #ccc;
-	background: #666;
-	width: 150px; 
+	background: #666; 
 	margin: 20px
 	}
 
 
-#middle {
-	margin: 20px 190px 20px 190px;
+
+
+#content {
+	
 	padding: 10px;
 	border: 5px solid #ccc;
 	background: #666;
-	
+	margin: 20px
 	}
 
-#right {
-	position: absolute;
-	top: 225px;
-	right: 0px; 
+footer {
+
+	 
 	margin: 20px;
 	padding: 10px;
 	border: 5px solid #ccc;
 	background: #666;
-	width: 150px; 
+	text-align: center;
 	}
 
-ul.std {
+
+}
+
+
+/*
+ * 300px and wider
+ */
+@media screen and (max-width: 410px) {
+
+	h1 {
+	width: 200px
+	
+	}
+h2 {			
+	width: 200px
+	}
+
+}
+
+/*
+ * 600px and wider
+ */
+@media screen and (max-width: 767px) {
+
+  li.inline {
+  	display: inline;
+ 	padding-left: 3px;
+ 	padding-right: 7px;
+  	border-right: 1px dotted #660033;
+  }
+	
+  li.last {
+  	display: inline;
+  	padding-left: 3px;
+ 	padding-right: 3px;
+  	border-right: 0px;
+  } 
+
+}
+
+/*
+ * 768px and wider
+ */
+@media screen and (min-width: 768px) {
+	
+	nav {
+		float: left;
+		width: 16%;
+	}
+	
+	#content {
+		float: right;
+		width: 65%
+	}
+	footer {
+		clear: both;
+
+	}
+
+	ul.std {
      list-style: none;
 		font-family: 'Telex', sans-serif;
 	}
@@ -127,5 +189,18 @@ ul.std {
      		padding: 1px 10px 38px 20px;
 	}
 
+}
 
+/*
+ * 900px and wider
+ */
+@media screen and (min-width: 900px) {
 
+	nav {
+		float: left;
+		width: 19%;
+	}
+	
+	
+	
+}
