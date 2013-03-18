@@ -79,7 +79,9 @@ header {
 	border: 5px solid #ccc;
 	background-image: url(lr1958.JPG);
 	background-size: cover;
-	height: 175px; /* ie5win fudge begins */
+	height: 175px;
+	max-width: 100%;
+	/* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
 	height: 175px;
