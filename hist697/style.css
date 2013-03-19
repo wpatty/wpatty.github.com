@@ -8,7 +8,6 @@
 	font-family: verdana, arial, helvetica, sans-serif;
 	color: #ccc;
 	background-color: #333;
-	max-width: 100%;
 	}
 
 a {
@@ -164,12 +163,12 @@ h2 {
 	
 	nav {
 		float: left;
-		width: 16%;
+		
 	}
 	
 	#content {
 		float: right;
-		width: 65%;
+		max-width: 100%;
 	}
 	footer {
 		clear: both;
