@@ -168,7 +168,7 @@ h2 {
 	
 	#content {
 		float: right;
-		width: 65%
+		max-width: 100%;
 	}
 	footer {
 		clear: both;
