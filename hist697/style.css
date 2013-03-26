@@ -161,13 +161,14 @@ h2 {
  */
 @media screen and (min-width: 768px) {
 	
-	nav {
+		nav {
 		float: left;
-		
+		width: 16%;
 	}
 	
 	#content {
-		float: left;
+		float: right;
+		width: 65%;
 		
 	}
 	footer {
