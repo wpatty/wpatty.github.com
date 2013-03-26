@@ -163,12 +163,12 @@ h2 {
 	
 		nav {
 		float: left;
-	
+		max-width: 100%;
 	}
 	
 	#content {
 		float: left;
-		max-width: 100%;
+	
 		
 	}
 	footer {
